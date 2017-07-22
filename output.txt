@@ -1,0 +1,321 @@
+Previous
+**************************
+Test Results:
+
+[Chrome 59 Dom] Test Suite
+==========================
+
+Running:  Chrome 59 - DOM
+ ✔ Element <body> was visible after 266 milliseconds.
+ ✔ Testing if element <div.nav-left.nav-menu > a:nth-child(2)> does not have css class: "is-active".
+ ✔ Testing if the URL contains "/documentation".
+ ✔ Element <.documentation-container> was visible after 341 milliseconds.
+ ✔ Testing if element <div.nav-left.nav-menu > a:nth-child(2)> has css class: "is-active".
+
+OK. 5 assertions passed. (19.852s)
+
+[Chrome 59 Url] Test Suite
+==========================
+
+Running:  Chrome 59 - URL
+ ✔ Element <body> was visible after 297 milliseconds.
+ ✔ Testing if the URL contains "/documentation".
+ ✔ Element <.documentation-container> was visible after 340 milliseconds.
+ ✔ Element <.login-container> was visible after 417 milliseconds.
+ ✔ Testing if the URL contains "/login".
+
+OK. 5 assertions passed. (18.547s)
+
+OK. 10 total assertions passed. (38.667s)
+
+
+npm list:
+
+browserstack-nightwatch-chrome-59@0.1.0 /Users/charlielee/Desktop/support/rbs/nightwatch
+├─┬ browserstack-local@1.3.0
+│ ├─┬ https-proxy-agent@1.0.0
+│ │ ├─┬ agent-base@2.1.1
+│ │ │ └── semver@5.0.3
+│ │ ├─┬ debug@2.6.8
+│ │ │ └── ms@2.0.0
+│ │ └── extend@3.0.1
+│ ├── is-running@2.1.0
+│ ├─┬ sinon@1.17.7
+│ │ ├── formatio@1.1.1
+│ │ ├── lolex@1.3.2
+│ │ ├── samsam@1.1.2
+│ │ └─┬ util@0.10.3
+│ │   └── inherits@2.0.1
+│ └─┬ temp-fs@0.9.9
+│   └─┬ rimraf@2.5.4
+│     └─┬ glob@7.1.2
+│       ├── fs.realpath@1.0.0
+│       ├─┬ inflight@1.0.6
+│       │ └── wrappy@1.0.2
+│       ├─┬ minimatch@3.0.4
+│       │ └─┬ brace-expansion@1.1.8
+│       │   ├── balanced-match@1.0.0
+│       │   └── concat-map@0.0.1
+│       ├── once@1.4.0
+│       └── path-is-absolute@1.0.1
+└─┬ nightwatch@0.8.18
+  ├─┬ chai-nightwatch@0.1.1
+  │ ├── assertion-error@1.0.0
+  │ └─┬ deep-eql@0.1.3
+  │   └── type-detect@0.1.1
+  ├── ejs@0.8.8
+  ├─┬ lodash.clone@3.0.3
+  │ ├─┬ lodash._baseclone@3.3.0
+  │ │ ├── lodash._arraycopy@3.0.0
+  │ │ ├── lodash._arrayeach@3.0.0
+  │ │ ├─┬ lodash._baseassign@3.2.0
+  │ │ │ └── lodash._basecopy@3.0.1
+  │ │ ├── lodash._basefor@3.0.3
+  │ │ ├── lodash.isarray@3.0.4
+  │ │ └─┬ lodash.keys@3.1.2
+  │ │   ├── lodash._getnative@3.9.1
+  │ │   └── lodash.isarguments@3.1.0
+  │ ├── lodash._bindcallback@3.0.1
+  │ └── lodash._isiterateecall@3.0.9
+  ├── lodash.defaultsdeep@4.6.0
+  ├─┬ minimatch@0.2.14
+  │ ├── lru-cache@2.7.3
+  │ └── sigmund@1.0.1
+  ├── mkpath@1.0.0
+  ├─┬ mocha-nightwatch@2.2.7
+  │ ├── commander@2.3.0
+  │ ├─┬ debug@2.0.0
+  │ │ └── ms@0.6.2
+  │ ├── diff@1.4.0
+  │ ├── escape-string-regexp@1.0.2
+  │ ├─┬ glob@3.2.3
+  │ │ ├── graceful-fs@2.0.3
+  │ │ └── minimatch@0.2.14
+  │ ├── growl@1.8.1
+  │ ├─┬ jade@0.26.3
+  │ │ ├── commander@0.6.1
+  │ │ └── mkdirp@0.3.0
+  │ ├─┬ lodash.create@3.1.1
+  │ │ └── lodash._basecreate@3.0.3
+  │ ├── mkdirp@0.5.0
+  │ └── supports-color@1.2.0
+  ├─┬ optimist@0.6.1
+  │ ├── minimist@0.0.8
+  │ └── wordwrap@0.0.3
+  ├─┬ proxy-agent@2.1.0
+  │ ├── http-proxy-agent@1.0.0
+  │ ├── lru-cache@2.6.5
+  │ ├─┬ pac-proxy-agent@2.0.0
+  │ │ ├─┬ get-uri@2.0.1
+  │ │ │ ├── data-uri-to-buffer@1.2.0
+  │ │ │ ├── file-uri-to-path@1.0.0
+  │ │ │ ├─┬ ftp@0.3.10
+  │ │ │ │ ├─┬ readable-stream@1.1.14
+  │ │ │ │ │ ├── isarray@0.0.1
+  │ │ │ │ │ └── string_decoder@0.10.31
+  │ │ │ │ └── xregexp@2.0.0
+  │ │ │ └─┬ readable-stream@2.3.3
+  │ │ │   ├── core-util-is@1.0.2
+  │ │ │   ├── inherits@2.0.3
+  │ │ │   ├── isarray@1.0.0
+  │ │ │   ├── process-nextick-args@1.0.7
+  │ │ │   ├── safe-buffer@5.1.1
+  │ │ │   ├── string_decoder@1.0.3
+  │ │ │   └── util-deprecate@1.0.2
+  │ │ ├─┬ pac-resolver@3.0.0
+  │ │ │ ├── co@4.6.0
+  │ │ │ ├─┬ degenerator@1.0.4
+  │ │ │ │ ├── ast-types@0.9.12
+  │ │ │ │ ├─┬ escodegen@1.8.1
+  │ │ │ │ │ ├── esprima@2.7.3
+  │ │ │ │ │ ├── estraverse@1.9.3
+  │ │ │ │ │ ├── esutils@2.0.2
+  │ │ │ │ │ ├─┬ optionator@0.8.2
+  │ │ │ │ │ │ ├── deep-is@0.1.3
+  │ │ │ │ │ │ ├── fast-levenshtein@2.0.6
+  │ │ │ │ │ │ ├── levn@0.3.0
+  │ │ │ │ │ │ ├── prelude-ls@1.1.2
+  │ │ │ │ │ │ ├── type-check@0.3.2
+  │ │ │ │ │ │ └── wordwrap@1.0.0
+  │ │ │ │ │ └─┬ source-map@0.2.0
+  │ │ │ │ │   └── amdefine@1.0.1
+  │ │ │ │ └── esprima@3.1.3
+  │ │ │ ├── ip@1.1.5
+  │ │ │ ├── netmask@1.0.6
+  │ │ │ └── thunkify@2.1.2
+  │ │ ├─┬ raw-body@2.2.0
+  │ │ │ ├── bytes@2.4.0
+  │ │ │ ├── iconv-lite@0.4.15
+  │ │ │ └── unpipe@1.0.0
+  │ │ └─┬ socks-proxy-agent@3.0.0
+  │ │   └─┬ agent-base@4.1.1
+  │ │     └─┬ es6-promisify@5.0.0
+  │ │       └── es6-promise@4.1.1
+  │ └─┬ socks-proxy-agent@2.1.1
+  │   └─┬ socks@1.1.10
+  │     └── smart-buffer@1.1.15
+  └── q@1.5.0
+
+
+
+----------------------------------------------------------------------------------------------------
+
+
+
+Fresh install with clean npm cache
+**************************
+
+Test Results:
+
+  [Chrome 59 Dom] Test Suite
+==============================
+
+Running:  Chrome 59 - DOM
+ ✔ Element <body> was visible after 187 milliseconds.
+ ✔ Testing if element <div.nav-left.nav-menu > a:nth-child(2)> does not have css class: "is-active".
+ ✔ Testing if the URL contains "/documentation".
+ ✔ Element <.documentation-container> was visible after 172 milliseconds.
+ ✔ Testing if element <div.nav-left.nav-menu > a:nth-child(2)> has css class: "is-active".
+
+OK. 5 assertions passed. (20.446s)
+
+[Chrome 59 Url] Test Suite
+==============================
+
+Running:  Chrome 59 - URL
+ ✔ Element <body> was visible after 396 milliseconds.
+ ✔ Testing if the URL contains "/documentation".
+ ✔ Element <.documentation-container> was visible after 189 milliseconds.
+ ✔ Element <.login-container> was visible after 235 milliseconds.
+ ✔ Testing if the URL contains "/login".
+
+OK. 5 assertions passed. (20.734s)
+
+OK. 10  total assertions passed. (41.268s)
+
+npm list:
+
+browserstack-nightwatch-chrome-59@0.1.0 /Users/charlielee/Desktop/support/rbs/nightwatch
+├─┬ browserstack-local@1.3.0
+│ ├─┬ https-proxy-agent@1.0.0
+│ │ ├─┬ agent-base@2.1.1
+│ │ │ └── semver@5.0.3
+│ │ ├─┬ debug@2.6.8
+│ │ │ └── ms@2.0.0
+│ │ └── extend@3.0.1
+│ ├── is-running@2.1.0
+│ ├─┬ sinon@1.17.7
+│ │ ├── formatio@1.1.1
+│ │ ├── lolex@1.3.2
+│ │ ├── samsam@1.1.2
+│ │ └─┬ util@0.10.3
+│ │   └── inherits@2.0.1
+│ └─┬ temp-fs@0.9.9
+│   └─┬ rimraf@2.5.4
+│     └── glob@7.1.2
+└─┬ nightwatch@0.9.16
+  ├─┬ chai-nightwatch@0.1.1
+  │ ├── assertion-error@1.0.0
+  │ └─┬ deep-eql@0.1.3
+  │   └── type-detect@0.1.1
+  ├── ejs@0.8.3
+  ├─┬ lodash.clone@3.0.3
+  │ ├─┬ lodash._baseclone@3.3.0
+  │ │ ├── lodash._arraycopy@3.0.0
+  │ │ ├── lodash._arrayeach@3.0.0
+  │ │ ├─┬ lodash._baseassign@3.2.0
+  │ │ │ └── lodash._basecopy@3.0.1
+  │ │ ├── lodash._basefor@3.0.3
+  │ │ ├── lodash.isarray@3.0.4
+  │ │ └─┬ lodash.keys@3.1.2
+  │ │   ├── lodash._getnative@3.9.1
+  │ │   └── lodash.isarguments@3.1.0
+  │ ├── lodash._bindcallback@3.0.1
+  │ └── lodash._isiterateecall@3.0.9
+  ├─┬ lodash.defaultsdeep@4.3.2
+  │ ├── lodash._baseclone@4.5.7
+  │ ├── lodash._stack@4.1.3
+  │ ├── lodash.isplainobject@4.0.6
+  │ ├── lodash.keysin@4.2.0
+  │ ├── lodash.mergewith@4.6.0
+  │ └── lodash.rest@4.0.5
+  ├─┬ minimatch@3.0.3
+  │ └─┬ brace-expansion@1.1.8
+  │   ├── balanced-match@1.0.0
+  │   └── concat-map@0.0.1
+  ├── mkpath@1.0.0
+  ├─┬ mocha-nightwatch@3.2.2
+  │ ├── browser-stdout@1.3.0
+  │ ├─┬ commander@2.9.0
+  │ │ └── graceful-readlink@1.0.1
+  │ ├─┬ debug@2.2.0
+  │ │ └── ms@0.7.1
+  │ ├── diff@1.4.0
+  │ ├── escape-string-regexp@1.0.5
+  │ ├─┬ glob@7.0.5
+  │ │ ├── fs.realpath@1.0.0
+  │ │ ├─┬ inflight@1.0.6
+  │ │ │ └── wrappy@1.0.2
+  │ │ ├── minimatch@3.0.4
+  │ │ ├── once@1.4.0
+  │ │ └── path-is-absolute@1.0.1
+  │ ├── growl@1.9.2
+  │ ├── json3@3.3.2
+  │ ├─┬ lodash.create@3.1.1
+  │ │ └── lodash._basecreate@3.0.3
+  │ ├── mkdirp@0.5.1
+  │ └─┬ supports-color@3.1.2
+  │   └── has-flag@1.0.0
+  ├─┬ optimist@0.6.1
+  │ ├── minimist@0.0.8
+  │ └── wordwrap@0.0.3
+  ├─┬ proxy-agent@2.0.0
+  │ ├── http-proxy-agent@1.0.0
+  │ ├── lru-cache@2.6.5
+  │ ├─┬ pac-proxy-agent@1.1.0
+  │ │ ├─┬ get-uri@2.0.1
+  │ │ │ ├── data-uri-to-buffer@1.2.0
+  │ │ │ ├── file-uri-to-path@1.0.0
+  │ │ │ ├─┬ ftp@0.3.10
+  │ │ │ │ ├─┬ readable-stream@1.1.14
+  │ │ │ │ │ ├── isarray@0.0.1
+  │ │ │ │ │ └── string_decoder@0.10.31
+  │ │ │ │ └── xregexp@2.0.0
+  │ │ │ └─┬ readable-stream@2.3.3
+  │ │ │   ├── core-util-is@1.0.2
+  │ │ │   ├── inherits@2.0.3
+  │ │ │   ├── isarray@1.0.0
+  │ │ │   ├── process-nextick-args@1.0.7
+  │ │ │   ├── safe-buffer@5.1.1
+  │ │ │   ├── string_decoder@1.0.3
+  │ │ │   └── util-deprecate@1.0.2
+  │ │ ├─┬ pac-resolver@2.0.0
+  │ │ │ ├── co@3.0.6
+  │ │ │ ├─┬ degenerator@1.0.4
+  │ │ │ │ ├── ast-types@0.9.12
+  │ │ │ │ ├─┬ escodegen@1.8.1
+  │ │ │ │ │ ├── esprima@2.7.3
+  │ │ │ │ │ ├── estraverse@1.9.3
+  │ │ │ │ │ ├── esutils@2.0.2
+  │ │ │ │ │ ├─┬ optionator@0.8.2
+  │ │ │ │ │ │ ├── deep-is@0.1.3
+  │ │ │ │ │ │ ├── fast-levenshtein@2.0.6
+  │ │ │ │ │ │ ├── levn@0.3.0
+  │ │ │ │ │ │ ├── prelude-ls@1.1.2
+  │ │ │ │ │ │ ├── type-check@0.3.2
+  │ │ │ │ │ │ └── wordwrap@1.0.0
+  │ │ │ │ │ └─┬ source-map@0.2.0
+  │ │ │ │ │   └── amdefine@1.0.1
+  │ │ │ │ └── esprima@3.1.3
+  │ │ │ ├── ip@1.0.1
+  │ │ │ ├── netmask@1.0.6
+  │ │ │ └── thunkify@2.1.2
+  │ │ └─┬ raw-body@2.2.0
+  │ │   ├── bytes@2.4.0
+  │ │   ├── iconv-lite@0.4.15
+  │ │   └── unpipe@1.0.0
+  │ └─┬ socks-proxy-agent@2.1.1
+  │   └─┬ socks@1.1.10
+  │     ├── ip@1.1.5
+  │     └── smart-buffer@1.1.15
+  └── q@1.4.1

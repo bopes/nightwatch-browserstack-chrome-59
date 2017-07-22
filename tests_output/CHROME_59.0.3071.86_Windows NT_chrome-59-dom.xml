@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="chrome-59-dom"
+    errors="0" failures="0" hostname="" id="" package="chrome-59-dom" skipped="0"
+    tests="1" time="20.45" timestamp="Sat, 22 Jul 2017 01:30:56 GMT">
+  
+    <testcase name="Chrome 59 - DOM" classname="chrome-59-dom" time="20.45" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
